@@ -1,0 +1,260 @@
+{
+	"global": {
+		"ask_for_confirmation_before_quitting": false,
+		"show_in_menu_bar": false
+	},
+	"profiles": [
+		{
+			"complex_modifications": {
+				"rules": [
+					{
+						"description": "Ctrl + HJKL navigation layer (with Shift/Option/Cmd support)",
+						"manipulators": [
+							{
+								"from": {
+									"key_code": "h",
+									"modifiers": {
+										"mandatory": [
+											"control"
+										],
+										"optional": []
+									}
+								},
+								"to": [
+									{
+										"key_code": "left_arrow"
+									}
+								],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "h",
+									"modifiers": {
+										"mandatory": [
+											"control",
+											"shift"
+										],
+										"optional": []
+									}
+								},
+								"to": [
+									{
+										"key_code": "left_arrow",
+										"modifiers": [
+											"shift"
+										]
+									}
+								],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "h",
+									"modifiers": {
+										"mandatory": [
+											"control",
+											"option"
+										],
+										"optional": []
+									}
+								},
+								"to": [
+									{
+										"key_code": "left_arrow",
+										"modifiers": [
+											"option"
+										]
+									}
+								],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "h",
+									"modifiers": {
+										"mandatory": [
+											"control",
+											"command"
+										],
+										"optional": []
+									}
+								},
+								"to": [
+									{
+										"key_code": "left_arrow",
+										"modifiers": [
+											"command"
+										]
+									}
+								],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "j",
+									"modifiers": {
+										"mandatory": [
+											"control"
+										],
+										"optional": []
+									}
+								},
+								"to": [
+									{
+										"key_code": "down_arrow"
+									}
+								],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "j",
+									"modifiers": {
+										"mandatory": [
+											"control",
+											"shift"
+										],
+										"optional": []
+									}
+								},
+								"to": [
+									{
+										"key_code": "down_arrow",
+										"modifiers": [
+											"shift"
+										]
+									}
+								],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "k",
+									"modifiers": {
+										"mandatory": [
+											"control"
+										],
+										"optional": []
+									}
+								},
+								"to": [
+									{
+										"key_code": "up_arrow"
+									}
+								],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "k",
+									"modifiers": {
+										"mandatory": [
+											"control",
+											"shift"
+										],
+										"optional": []
+									}
+								},
+								"to": [
+									{
+										"key_code": "up_arrow",
+										"modifiers": [
+											"shift"
+										]
+									}
+								],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "l",
+									"modifiers": {
+										"mandatory": [
+											"control"
+										],
+										"optional": []
+									}
+								},
+								"to": [
+									{
+										"key_code": "right_arrow"
+									}
+								],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "l",
+									"modifiers": {
+										"mandatory": [
+											"control",
+											"shift"
+										],
+										"optional": []
+									}
+								},
+								"to": [
+									{
+										"key_code": "right_arrow",
+										"modifiers": [
+											"shift"
+										]
+									}
+								],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "l",
+									"modifiers": {
+										"mandatory": [
+											"control",
+											"option"
+										],
+										"optional": []
+									}
+								},
+								"to": [
+									{
+										"key_code": "right_arrow",
+										"modifiers": [
+											"option"
+										]
+									}
+								],
+								"type": "basic"
+							},
+							{
+								"from": {
+									"key_code": "l",
+									"modifiers": {
+										"mandatory": [
+											"control",
+											"command"
+										],
+										"optional": []
+									}
+								},
+								"to": [
+									{
+										"key_code": "right_arrow",
+										"modifiers": [
+											"command"
+										]
+									}
+								],
+								"type": "basic"
+							}
+						]
+					}
+				]
+			},
+			"name": "Default profile",
+			"selected": true,
+			"virtual_hid_keyboard": {
+				"keyboard_type_v2": "iso"
+			}
+		}
+	]
+}
